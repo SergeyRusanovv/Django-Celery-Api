@@ -19,10 +19,6 @@ class Project(models.Model):
 
 
 class Priority(models.IntegerChoices):
-    class Meta:
-        verbose_name = "Приоритет задачи"
-        verbose_name_plural = "Приоритеты задач"
-
     LOW = 1
     MEDIUM = 2
     HIGH = 3
